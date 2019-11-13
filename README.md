@@ -2,6 +2,24 @@
 
 ## Spring Boot + Postgresql + Docker Containers
 
+### Prepair
+
+Launch 1 EC2 Amazon Linux
+
+Install docker, docker-compose:  
+```sh
+sudo yum install git -y
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+sudo -i
+curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+exit
+#Logout and Login
+```
+
 ### How to run 
 
 ```sh
