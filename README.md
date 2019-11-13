@@ -20,6 +20,10 @@ exit
 #Logout and Login
 ```
 
+Install maven, java8:
+
+`https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth-connect-prerq.html`
+
 ### How to run 
 
 ```sh
