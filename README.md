@@ -1,6 +1,6 @@
 =========
 
-## Spring Boot + Postgresql + Docker Containers
+## Spring Boot + Postgresql + Docker Compose 
 
 ### Prepair
 
@@ -55,6 +55,9 @@ if `success`:
     }
 }
 ```
+In Browser check this link `http://<EC2-PUBLIC-IP>:12345/v1/product/product001`
+if success, browser will show something like this:
+`{"product":{"id":1,"name":"product001","new":false},"result":{"success":true,"message":"Success"}}`
 
 ### REFERENCES: 
 https://muzir.github.io/spring/docker/docker-compose/postgres/2019/03/24/Spring-Boot-Docker.html
